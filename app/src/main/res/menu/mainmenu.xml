@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_first">
+        <item android:id="@+id/menu_add"
+            android:title="Add"
+
+            />
+        <item android:id="@+id/menu_edit"
+            android:title="Edit"/>
+
+    </group>
+    <group android:id="@+id/group_second">
+        <item android:id="@+id/menu_delete"
+            android:title="Delete"/>
+    </group>
+    <group android:id="@+id/group_third">
+        <item android:id="@+id/menu_open_second_activity"
+            android:title="Second Activity"/>
+        <item android:id="@+id/menu_show_time"
+            android:title="Show Time"/>
+        <item android:id="@+id/menu_show_date"
+            android:title="Show Date"/>
+        <item android:id="@+id/menu_info_time"
+            android:title="Info: time"/>
+        <item android:id="@+id/menu_info_date"
+            android:title="Info: date"/>
+    </group>
+
+</menu>
